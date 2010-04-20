@@ -2,7 +2,8 @@
 /**
  * DOM Style Level 2
  */
-var CSS2Properties,
+//Make these global to avoid namespace pollution in tests.
+/*var CSS2Properties,
     CSSRule,
-    CSSStyleSheet;
+    CSSStyleSheet;*/
     

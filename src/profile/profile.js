@@ -2,8 +2,9 @@
 
 var $profile = window.$profile = {};
 
-
-var __profile__ = function(id, invocation){
+//Make these global to avoid namespace pollution in tests.
+/*var __profile__ = function(id, invocation){*/
+__profile__ = function(id, invocation){
     var start = new Date().getTime();
     var retval = invocation.proceed(); 
     var finish = new Date().getTime();

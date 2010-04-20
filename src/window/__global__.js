@@ -2,8 +2,10 @@
 /**
  * @todo: document
  */
-var Window,
+
+//Make these global to avoid namespace pollution in tests.
+/*var Window,
     Screen,
     History,
-    Navigator;
+    Navigator;*/
 

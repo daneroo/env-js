@@ -10,5 +10,7 @@
  * be able to correctly implement to core browser (XML)HTTPRequest 
  * interfaces.
  */
-var Location,
-    XMLHttpRequest;
+
+//Make these global to avoid namespace pollution in tests.
+/*var Location,
+    XMLHttpRequest;*/

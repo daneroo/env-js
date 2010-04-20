@@ -13,7 +13,8 @@
  * be able to correctly implement to core browser DOM interfaces."
  */
 
-var Attr,
+//Make these global to avoid namespace pollution in tests.
+/*var Attr,
     CDATASection,
     CharacterData,
     Comment,
@@ -34,6 +35,6 @@ var Attr,
     Text,
     Range,
     XMLSerializer,
-    DOMParser;
+    DOMParser;*/
 
 
